@@ -20,6 +20,11 @@ on:
         required: false
         type: boolean
         default: false
+      allow_early:
+        description: Permit a manual audit capture before the scheduled date
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: '31 23 15 10 *'
     - cron: '31 16 17 10 *'
@@ -46,6 +51,7 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           MANUAL_WINDOW: ${{ inputs.window }}
           MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+          MANUAL_ALLOW_EARLY: ${{ inputs.allow_early }}
         run: |
           case "$SCHEDULE" in
             '31 23 15 10 *') WINDOW=thursday ;;
@@ -60,6 +66,8 @@ jobs:
           esac
           if [ "$MANUAL_DRY_RUN" = 'true' ]; then
             python cloud/week7_capture.py --window "$WINDOW" --dry-run
+          elif [ "$MANUAL_ALLOW_EARLY" = 'true' ]; then
+            python cloud/week7_capture.py --window "$WINDOW" --allow-early
           else
             python cloud/week7_capture.py --window "$WINDOW"
           fi

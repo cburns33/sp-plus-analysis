@@ -141,9 +141,12 @@ def capture(window, games, dry_run):
     records = []
     for game in games:
         quote = quotes.get(game['game_id'])
+        seconds_before_kickoff = (datetime.fromisoformat(game['start_date_utc'].replace('Z', '+00:00')) -
+                                  datetime.fromisoformat(quote['retrieved_at_utc'])).total_seconds() if quote else None
         records.append({'game_id': game['game_id'], 'underdog': game['underdog'],
                         'sp_selected': game['sp_selected'] == '1', 'quote': quote,
-                        'captured_before_kickoff': bool(quote and quote['retrieved_at_utc'] < game['start_date_utc']),
+                        'captured_before_kickoff': bool(quote and seconds_before_kickoff >= 0),
+                        'captured_near_kickoff': bool(quote and 0 <= seconds_before_kickoff <= 7200),
                         'missing_reason': None if quote else 'No matching displayed DraftKings spread and price'})
     return {'window': window, 'captured_at_utc': now(), 'records': records, 'sources': sources}
 
@@ -166,7 +169,7 @@ def results(games, dry_run):
     for path in sorted((ROOT / 'runs').glob('saturday-*.json')) + sorted((ROOT / 'runs').glob('thursday.json')):
         for record in json.loads(path.read_text(encoding='utf-8'))['records']:
             quote = record['quote']
-            if record['captured_before_kickoff'] and quote:
+            if record['captured_near_kickoff'] and quote:
                 old = prior.get(record['game_id'])
                 if old is None or quote['retrieved_at_utc'] > old['retrieved_at_utc']:
                     prior[record['game_id']] = quote
@@ -215,9 +218,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--window', required=True, choices=WINDOWS)
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--allow-early', action='store_true')
     args = parser.parse_args()
     expected_date, ids = WINDOWS[args.window]
-    if not args.dry_run and datetime.now(ZoneInfo('America/Chicago')).strftime('%Y-%m-%d') != expected_date:
+    if not args.dry_run and not args.allow_early and datetime.now(ZoneInfo('America/Chicago')).strftime('%Y-%m-%d') != expected_date:
         print('Outside the one-time scheduled date; no capture')
         return
     games = [game for game in GAMES if game['game_id'] in ids]
