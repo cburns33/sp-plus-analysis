@@ -1,4 +1,5 @@
 .env*
+AGENTS.md
 .playwright-cli/
 work/
 outputs/
