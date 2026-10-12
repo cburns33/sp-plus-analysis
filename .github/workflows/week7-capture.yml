@@ -1,0 +1,80 @@
+name: SP+ Week 7 capture
+
+on:
+  workflow_dispatch:
+    inputs:
+      window:
+        description: Capture window to run
+        required: true
+        type: choice
+        options:
+          - thursday
+          - saturday-noon
+          - saturday-afternoon
+          - saturday-early-evening
+          - saturday-evening
+          - saturday-late
+          - sunday-results
+      dry_run:
+        description: Test sources without saving a result
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    - cron: '31 23 15 10 *'
+    - cron: '31 16 17 10 *'
+    - cron: '02 19 17 10 *'
+    - cron: '31 21 17 10 *'
+    - cron: '31 22 17 10 *'
+    - cron: '31 01 18 10 *'
+    - cron: '02 17 18 10 *'
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests beautifulsoup4
+      - name: Capture quotes or results
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_WINDOW: ${{ inputs.window }}
+          MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          case "$SCHEDULE" in
+            '31 23 15 10 *') WINDOW=thursday ;;
+            '31 16 17 10 *') WINDOW=saturday-noon ;;
+            '02 19 17 10 *') WINDOW=saturday-afternoon ;;
+            '31 21 17 10 *') WINDOW=saturday-early-evening ;;
+            '31 22 17 10 *') WINDOW=saturday-evening ;;
+            '31 01 18 10 *') WINDOW=saturday-late ;;
+            '02 17 18 10 *') WINDOW=sunday-results ;;
+            '') WINDOW="$MANUAL_WINDOW" ;;
+            *) echo "Unknown schedule"; exit 1 ;;
+          esac
+          if [ "$MANUAL_DRY_RUN" = 'true' ]; then
+            python cloud/week7_capture.py --window "$WINDOW" --dry-run
+          else
+            python cloud/week7_capture.py --window "$WINDOW"
+          fi
+      - name: Save raw source responses
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: week7-source-${{ github.run_id }}
+          path: cloud/raw/
+          if-no-files-found: ignore
+      - name: Commit auditable result
+        run: |
+          git add cloud/runs/
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Capture Week 7 quote or result'
+          git push

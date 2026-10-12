@@ -1,0 +1,12 @@
+.env*
+.playwright-cli/
+work/
+outputs/
+cloud/raw/
+__pycache__/
+*.pyc
+*.xls
+*.xlsx
+*.xlsm
+*.png
+error.log
