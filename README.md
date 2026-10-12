@@ -21,3 +21,5 @@ Scheduled checks, Central time:
 The Sunday comparison uses the frozen 13-game baseline and the three SP+ selected games. A later quote counts as near kickoff only when retrieved within two hours before the scheduled start.
 
 The quote source is the public DraftKings Network betting-splits page, with SportsLine's embedded DraftKings records for games absent there. Sunday scores use ESPN's public event summary with the same game IDs. These are source observations, not verified executable wagers. The cloud workflow does not use or store `CFBD_API_KEY`.
+
+An [October 12 manual hosted run](https://github.com/cburns33/sp-plus-analysis/actions/runs/38273355130) saved an [early quote in Git history](https://github.com/cburns33/sp-plus-analysis/blob/ab1b7e923f3524fd5e182b1095ed196d9039986a/cloud/runs/thursday.json) and raw page snapshots as an Actions artifact. It verified capture and repository write access. The early quote falls outside the two-hour near-kickoff window. Dry runs verified the other quote sources and the ESPN score lookup. The prior local Codex scheduled runs are paused.
