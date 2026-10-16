@@ -1,55 +1,46 @@
 {
   "window": "thursday",
-  "captured_at_utc": "2026-10-12T15:52:24+00:00",
+  "captured_at_utc": "2026-10-16T01:32:58+00:00",
   "records": [
     {
       "game_id": "401860923",
       "underdog": "Colorado State",
       "sp_selected": true,
-      "quote": {
-        "underdog_points": 14.0,
-        "underdog_american": -110,
-        "source": "DraftKings Network",
-        "source_game": "Colorado State @ Texas State",
-        "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=1",
-        "retrieved_at_utc": "2026-10-12T15:52:23+00:00",
-        "sha256": "39064fb73363471ecb79f81ef742ee2d02c988272a18da078fe1e01bb7e9b834",
-        "snapshot": "raw/thursday_dk_page1.html"
-      },
-      "captured_before_kickoff": true,
+      "quote": null,
+      "captured_before_kickoff": false,
       "captured_near_kickoff": false,
-      "missing_reason": null
+      "missing_reason": "No matching displayed DraftKings spread and price"
     }
   ],
   "sources": [
     {
       "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=1",
-      "retrieved_at_utc": "2026-10-12T15:52:23+00:00",
-      "sha256": "39064fb73363471ecb79f81ef742ee2d02c988272a18da078fe1e01bb7e9b834",
+      "retrieved_at_utc": "2026-10-16T01:32:57+00:00",
+      "sha256": "864be1f1c551eb53bc58a3f5c6bb11f534e03643493364981b07b03b7a86271c",
       "snapshot": "raw/thursday_dk_page1.html"
     },
     {
       "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=2",
-      "retrieved_at_utc": "2026-10-12T15:52:23+00:00",
-      "sha256": "079936084accfb2bf8d4d274e70eac0ea83ea232935852a4552d2de9482fee44",
+      "retrieved_at_utc": "2026-10-16T01:32:57+00:00",
+      "sha256": "bd1895b379f48e4a6840bb4c3ca2138198cd4414c03a2b9d95d44c6629662b98",
       "snapshot": "raw/thursday_dk_page2.html"
     },
     {
       "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=3",
-      "retrieved_at_utc": "2026-10-12T15:52:23+00:00",
-      "sha256": "271c614d1953966b25f178d81a7c3af56f3ee79c54dcfdc799a6300f3cbeaa16",
+      "retrieved_at_utc": "2026-10-16T01:32:57+00:00",
+      "sha256": "fbfd5b2da321e93d848a5a7f63e91daec6189f2e758b8935e7aa41d19fb5c3c7",
       "snapshot": "raw/thursday_dk_page3.html"
     },
     {
       "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=4",
-      "retrieved_at_utc": "2026-10-12T15:52:23+00:00",
-      "sha256": "99b811086ef786b126ffc50a713438ee3c2cb45a5281e5017a635468628dddae",
+      "retrieved_at_utc": "2026-10-16T01:32:58+00:00",
+      "sha256": "a3658a593120da870f15a1b281736f3bb110f29641bf735fff94472f7e77ef71",
       "snapshot": "raw/thursday_dk_page4.html"
     },
     {
       "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=5",
-      "retrieved_at_utc": "2026-10-12T15:52:23+00:00",
-      "sha256": "4272629385ca1a7d64fdcfba1a96aade0514ac00690bd473812d46f4839edffb",
+      "retrieved_at_utc": "2026-10-16T01:32:58+00:00",
+      "sha256": "c5e9fe8437e2242c62e1bcd3c81d94a15c2841e43bd7023b46b82f38b1f9db64",
       "snapshot": "raw/thursday_dk_page5.html"
     }
   ]
