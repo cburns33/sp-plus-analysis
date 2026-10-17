@@ -1,0 +1,56 @@
+{
+  "window": "saturday-afternoon",
+  "captured_at_utc": "2026-10-17T21:20:21+00:00",
+  "records": [
+    {
+      "game_id": "401856828",
+      "underdog": "Arizona State",
+      "sp_selected": false,
+      "quote": null,
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": "No matching displayed DraftKings spread and price"
+    },
+    {
+      "game_id": "401856719",
+      "underdog": "Auburn",
+      "sp_selected": false,
+      "quote": null,
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": "No matching displayed DraftKings spread and price"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=1",
+      "retrieved_at_utc": "2026-10-17T21:20:19+00:00",
+      "sha256": "00d7eb1ff6832bbf497bbd8ed581a0dbc8763836b2c8d0d7c3c1e676fb00e64b",
+      "snapshot": "raw/saturday-afternoon_dk_page1.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=2",
+      "retrieved_at_utc": "2026-10-17T21:20:19+00:00",
+      "sha256": "007853298bf6743d8a1aade45332875dba8e7fddcb0e7c0bda2519e5b8317acb",
+      "snapshot": "raw/saturday-afternoon_dk_page2.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=3",
+      "retrieved_at_utc": "2026-10-17T21:20:20+00:00",
+      "sha256": "d3da490167f3db6bc67cc5e36c5a35e1a6a196c27e5f707b3dde9ff0f9970f23",
+      "snapshot": "raw/saturday-afternoon_dk_page3.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=4",
+      "retrieved_at_utc": "2026-10-17T21:20:20+00:00",
+      "sha256": "39358999b1aeaff6316c03b7851a54c673b907c995898ef5a7b66f1e562707f3",
+      "snapshot": "raw/saturday-afternoon_dk_page4.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=5",
+      "retrieved_at_utc": "2026-10-17T21:20:20+00:00",
+      "sha256": "019ee07db0bdb835bd550c3f6fa717ec284a60a69b79e475acd785718f317c4f",
+      "snapshot": "raw/saturday-afternoon_dk_page5.html"
+    }
+  ]
+}
