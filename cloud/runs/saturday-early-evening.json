@@ -1,0 +1,56 @@
+{
+  "window": "saturday-early-evening",
+  "captured_at_utc": "2026-10-17T23:19:56+00:00",
+  "records": [
+    {
+      "game_id": "401860903",
+      "underdog": "Washington State",
+      "sp_selected": false,
+      "quote": {
+        "underdog_points": 18.5,
+        "underdog_american": -108,
+        "source": "DraftKings Network",
+        "source_game": "Washington State @ Oregon State",
+        "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=2",
+        "retrieved_at_utc": "2026-10-17T23:19:56+00:00",
+        "sha256": "a95354d25e71272db9d31c070d66fdf01f5ac5ba32132cc408e98e727142e33b",
+        "snapshot": "raw/saturday-early-evening_dk_page2.html"
+      },
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": null
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=1",
+      "retrieved_at_utc": "2026-10-17T23:19:56+00:00",
+      "sha256": "a9cf103a3860d10b4141026f788e788c74eebe81274703b5f4192d03fbca64c0",
+      "snapshot": "raw/saturday-early-evening_dk_page1.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=2",
+      "retrieved_at_utc": "2026-10-17T23:19:56+00:00",
+      "sha256": "a95354d25e71272db9d31c070d66fdf01f5ac5ba32132cc408e98e727142e33b",
+      "snapshot": "raw/saturday-early-evening_dk_page2.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=3",
+      "retrieved_at_utc": "2026-10-17T23:19:56+00:00",
+      "sha256": "d46a47c2a371cea10ace73b130b604a78413c507e18156a779ab5b4b98d1b301",
+      "snapshot": "raw/saturday-early-evening_dk_page3.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=4",
+      "retrieved_at_utc": "2026-10-17T23:19:56+00:00",
+      "sha256": "621b806ca469c3adebae501cfab12f12dbd80ae95756a16d391de348f9e4e403",
+      "snapshot": "raw/saturday-early-evening_dk_page4.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=5",
+      "retrieved_at_utc": "2026-10-17T23:19:56+00:00",
+      "sha256": "b7b997f545a1174ec10b0120a8aedce37e133f329416697a0780dee55f460498",
+      "snapshot": "raw/saturday-early-evening_dk_page5.html"
+    }
+  ]
+}
