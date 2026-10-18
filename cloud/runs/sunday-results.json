@@ -1,0 +1,341 @@
+{
+  "window": "sunday-results",
+  "captured_at_utc": "2026-10-18T19:22:26+00:00",
+  "records": [
+    {
+      "game_id": "401860923",
+      "underdog": "Colorado State",
+      "sp_selected": true,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860923",
+        "retrieved_at_utc": "2026-10-18T19:22:24+00:00",
+        "sha256": "e17a1a28cc2537cbaa2b4eead4838d4421f9eeb81a1cdf6cb3887047e1be7be6",
+        "snapshot": "raw/sunday-results_espn_401860923.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 27,
+      "favorite_score": 66,
+      "frozen_grade": "L",
+      "frozen_return_per_100": -100.0
+    },
+    {
+      "game_id": "401862803",
+      "underdog": "Charlotte",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862803",
+        "retrieved_at_utc": "2026-10-18T19:22:24+00:00",
+        "sha256": "e44599d2205d7f52e58fd46cb671e3e3d2b6885fa29c9cdb1fa2936668d02b0c",
+        "snapshot": "raw/sunday-results_espn_401862803.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 38,
+      "favorite_score": 31,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 89.29
+    },
+    {
+      "game_id": "401856828",
+      "underdog": "Arizona State",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856828",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "3259c7fcadc249c5a87ed97a10a237bd4884ad2fdf5c4ebadd7c7fee722f5c22",
+        "snapshot": "raw/sunday-results_espn_401856828.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 25,
+      "favorite_score": 53,
+      "frozen_grade": "L",
+      "frozen_return_per_100": -100.0
+    },
+    {
+      "game_id": "401856719",
+      "underdog": "Auburn",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856719",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "c5fbc6703682b1bd39f1f1efa8b7e886869e90758fdf93d7b8637755a7522d31",
+        "snapshot": "raw/sunday-results_espn_401856719.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 27,
+      "favorite_score": 24,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 86.96
+    },
+    {
+      "game_id": "401860903",
+      "underdog": "Washington State",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860903",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "49ef21b1229d05a5fd988f545c1a738b1dae3ac10e46d3570bd437432100313c",
+        "snapshot": "raw/sunday-results_espn_401860903.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 30,
+      "favorite_score": 48,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 86.96
+    },
+    {
+      "game_id": "401858263",
+      "underdog": "Florida State",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858263",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "3c408fe4f294f63a1b62eca53bd5450676e51db97aaf9a8ba8af41ba1a2563dc",
+        "snapshot": "raw/sunday-results_espn_401858263.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 35,
+      "favorite_score": 43,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 95.24
+    },
+    {
+      "game_id": "401862806",
+      "underdog": "Kent State",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862806",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "704c1dea3369970e96369b40f0b0e57c0029e61c56f1b5505e6dd380dcace707",
+        "snapshot": "raw/sunday-results_espn_401862806.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 2,
+      "favorite_score": 29,
+      "frozen_grade": "L",
+      "frozen_return_per_100": -100.0
+    },
+    {
+      "game_id": "401864520",
+      "underdog": "Nevada",
+      "sp_selected": true,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864520",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "1e03c67772a4d966632aed61590b8b52167057660b074e85818cb869ad2f9859",
+        "snapshot": "raw/sunday-results_espn_401864520.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 17,
+      "favorite_score": 31,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 89.29
+    },
+    {
+      "game_id": "401858265",
+      "underdog": "Syracuse",
+      "sp_selected": true,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858265",
+        "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+        "sha256": "5c4c55b6b41a9280d02b33fae8582bba04e548e7c6b6d24e3e6da77f3b3ad4ce",
+        "snapshot": "raw/sunday-results_espn_401858265.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 26,
+      "favorite_score": 34,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 89.29
+    },
+    {
+      "game_id": "401871091",
+      "underdog": "UL Monroe",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871091",
+        "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+        "sha256": "ec8c0396148ce367dd0f42d1329d379bef442b0afc965fc52393033c56ee970d",
+        "snapshot": "raw/sunday-results_espn_401871091.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 0,
+      "favorite_score": 24,
+      "frozen_grade": "L",
+      "frozen_return_per_100": -100.0
+    },
+    {
+      "game_id": "401866445",
+      "underdog": "Sacramento State",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866445",
+        "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+        "sha256": "cf7e253cc9eb7f85974f0f86a3d46b034180ec730f1b3a86fa0187f33c1773f0",
+        "snapshot": "raw/sunday-results_espn_401866445.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 7,
+      "favorite_score": 48,
+      "frozen_grade": "L",
+      "frozen_return_per_100": -100.0
+    },
+    {
+      "game_id": "401856833",
+      "underdog": "Colorado",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856833",
+        "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+        "sha256": "6ff7ac36910fe881c890bcd36a662c54d046bcb453a176204885a6ac856c5e21",
+        "snapshot": "raw/sunday-results_espn_401856833.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 24,
+      "favorite_score": 27,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 92.59
+    },
+    {
+      "game_id": "401864521",
+      "underdog": "Hawai'i",
+      "sp_selected": false,
+      "final": true,
+      "score_source": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864521",
+        "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+        "sha256": "6f1fc2979e2e091f59c953ee38dd82e100814dcc953b5c54e052ecbab1372c01",
+        "snapshot": "raw/sunday-results_espn_401864521.json"
+      },
+      "near_kickoff_quote": null,
+      "dog_score": 10,
+      "favorite_score": 21,
+      "frozen_grade": "W",
+      "frozen_return_per_100": 89.29
+    }
+  ],
+  "summary": {
+    "all_large_dogs": {
+      "frozen": {
+        "games": 13,
+        "wins": 8,
+        "losses": 5,
+        "pushes": 0,
+        "return_per_100_staked_each": 218.91
+      },
+      "near": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "return_per_100_staked_each": 0
+      }
+    },
+    "sp_selected": {
+      "frozen": {
+        "games": 3,
+        "wins": 2,
+        "losses": 1,
+        "pushes": 0,
+        "return_per_100_staked_each": 78.58
+      },
+      "near": {
+        "games": 0,
+        "wins": 0,
+        "losses": 0,
+        "pushes": 0,
+        "return_per_100_staked_each": 0
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860923",
+      "retrieved_at_utc": "2026-10-18T19:22:24+00:00",
+      "sha256": "e17a1a28cc2537cbaa2b4eead4838d4421f9eeb81a1cdf6cb3887047e1be7be6",
+      "snapshot": "raw/sunday-results_espn_401860923.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862803",
+      "retrieved_at_utc": "2026-10-18T19:22:24+00:00",
+      "sha256": "e44599d2205d7f52e58fd46cb671e3e3d2b6885fa29c9cdb1fa2936668d02b0c",
+      "snapshot": "raw/sunday-results_espn_401862803.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856828",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "3259c7fcadc249c5a87ed97a10a237bd4884ad2fdf5c4ebadd7c7fee722f5c22",
+      "snapshot": "raw/sunday-results_espn_401856828.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856719",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "c5fbc6703682b1bd39f1f1efa8b7e886869e90758fdf93d7b8637755a7522d31",
+      "snapshot": "raw/sunday-results_espn_401856719.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401860903",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "49ef21b1229d05a5fd988f545c1a738b1dae3ac10e46d3570bd437432100313c",
+      "snapshot": "raw/sunday-results_espn_401860903.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858263",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "3c408fe4f294f63a1b62eca53bd5450676e51db97aaf9a8ba8af41ba1a2563dc",
+      "snapshot": "raw/sunday-results_espn_401858263.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401862806",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "704c1dea3369970e96369b40f0b0e57c0029e61c56f1b5505e6dd380dcace707",
+      "snapshot": "raw/sunday-results_espn_401862806.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864520",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "1e03c67772a4d966632aed61590b8b52167057660b074e85818cb869ad2f9859",
+      "snapshot": "raw/sunday-results_espn_401864520.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401858265",
+      "retrieved_at_utc": "2026-10-18T19:22:25+00:00",
+      "sha256": "5c4c55b6b41a9280d02b33fae8582bba04e548e7c6b6d24e3e6da77f3b3ad4ce",
+      "snapshot": "raw/sunday-results_espn_401858265.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401871091",
+      "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+      "sha256": "ec8c0396148ce367dd0f42d1329d379bef442b0afc965fc52393033c56ee970d",
+      "snapshot": "raw/sunday-results_espn_401871091.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401866445",
+      "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+      "sha256": "cf7e253cc9eb7f85974f0f86a3d46b034180ec730f1b3a86fa0187f33c1773f0",
+      "snapshot": "raw/sunday-results_espn_401866445.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401856833",
+      "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+      "sha256": "6ff7ac36910fe881c890bcd36a662c54d046bcb453a176204885a6ac856c5e21",
+      "snapshot": "raw/sunday-results_espn_401856833.json"
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary?event=401864521",
+      "retrieved_at_utc": "2026-10-18T19:22:26+00:00",
+      "sha256": "6f1fc2979e2e091f59c953ee38dd82e100814dcc953b5c54e052ecbab1372c01",
+      "snapshot": "raw/sunday-results_espn_401864521.json"
+    }
+  ]
+}
