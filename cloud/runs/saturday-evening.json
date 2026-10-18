@@ -1,0 +1,107 @@
+{
+  "window": "saturday-evening",
+  "captured_at_utc": "2026-10-18T00:12:42+00:00",
+  "records": [
+    {
+      "game_id": "401858263",
+      "underdog": "Florida State",
+      "sp_selected": false,
+      "quote": null,
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": "No matching displayed DraftKings spread and price"
+    },
+    {
+      "game_id": "401862806",
+      "underdog": "Kent State",
+      "sp_selected": false,
+      "quote": null,
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": "No matching displayed DraftKings spread and price"
+    },
+    {
+      "game_id": "401864520",
+      "underdog": "Nevada",
+      "sp_selected": true,
+      "quote": null,
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": "No matching displayed DraftKings spread and price"
+    },
+    {
+      "game_id": "401858265",
+      "underdog": "Syracuse",
+      "sp_selected": true,
+      "quote": {
+        "underdog_points": 14.5,
+        "underdog_american": -108,
+        "source": "DraftKings Network",
+        "source_game": "Louisville @ Syracuse",
+        "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=1",
+        "retrieved_at_utc": "2026-10-18T00:12:40+00:00",
+        "sha256": "0d412ec4141907a6bd9b461bfa6aad24a650bec275d092fd96c9e82b0c75043a",
+        "snapshot": "raw/saturday-evening_dk_page1.html"
+      },
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": null
+    },
+    {
+      "game_id": "401871091",
+      "underdog": "UL Monroe",
+      "sp_selected": false,
+      "quote": {
+        "underdog_points": 13.5,
+        "underdog_american": -108,
+        "source": "SportsLine embedded DraftKings",
+        "source_game": "Louisiana Tech @ UL Monroe",
+        "url": "https://www.sportsline.com/college-football/game-forecast/NCAAF_20261017_LATECH%40LAMON/",
+        "retrieved_at_utc": "2026-10-18T00:12:41+00:00",
+        "sha256": "3be6feb32f9e9d76e5efab089fe598995d8e8017c2bdb3bb415c2d76d98e2529",
+        "snapshot": "raw/saturday-evening_sportsline_401871091.html"
+      },
+      "captured_before_kickoff": false,
+      "captured_near_kickoff": false,
+      "missing_reason": null
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=1",
+      "retrieved_at_utc": "2026-10-18T00:12:40+00:00",
+      "sha256": "0d412ec4141907a6bd9b461bfa6aad24a650bec275d092fd96c9e82b0c75043a",
+      "snapshot": "raw/saturday-evening_dk_page1.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=2",
+      "retrieved_at_utc": "2026-10-18T00:12:41+00:00",
+      "sha256": "77eeb9afdf95af096db7cf01438cc6d056e4406722aef23d8f81242ff269d074",
+      "snapshot": "raw/saturday-evening_dk_page2.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=3",
+      "retrieved_at_utc": "2026-10-18T00:12:41+00:00",
+      "sha256": "a5673c0959efe2ec8947e8033376402b7a463648649208d18c197ef702d8860f",
+      "snapshot": "raw/saturday-evening_dk_page3.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=4",
+      "retrieved_at_utc": "2026-10-18T00:12:41+00:00",
+      "sha256": "775165ac4258efd4362ea623be725317f4703c76951b9aebdfc8cbcee651c00a",
+      "snapshot": "raw/saturday-evening_dk_page4.html"
+    },
+    {
+      "url": "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&itm_content=NCAA+Football&tb_edate=n30days&tb_emt=Spread&tb_page=5",
+      "retrieved_at_utc": "2026-10-18T00:12:41+00:00",
+      "sha256": "687aaaaaa6d97e193e42f21855901a4a16b5b923fb9f8582951bc6f43ac23f00",
+      "snapshot": "raw/saturday-evening_dk_page5.html"
+    },
+    {
+      "url": "https://www.sportsline.com/college-football/game-forecast/NCAAF_20261017_LATECH%40LAMON/",
+      "retrieved_at_utc": "2026-10-18T00:12:41+00:00",
+      "sha256": "3be6feb32f9e9d76e5efab089fe598995d8e8017c2bdb3bb415c2d76d98e2529",
+      "snapshot": "raw/saturday-evening_sportsline_401871091.html"
+    }
+  ]
+}
