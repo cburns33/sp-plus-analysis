@@ -2,9 +2,9 @@
 
 This public repo holds a small, frozen 2026 Week 7 large-underdog cohort and a hosted capture workflow. The full historical backtest and source workbooks remain in the local project.
 
-The [fixed game list](cloud/week7_frozen.csv) contains 13 DraftKings opening-line large underdogs. Three were selected by the saved SP+ comparison. The original underdog spreads and displayed American prices were captured October 11, 2026. Scheduled GitHub Actions runs collect later DraftKings quotes around kickoff, then grade final scores on Sunday. Results are saved in `cloud/runs`; raw web responses are retained as workflow artifacts. Each observation records its retrieval time, source, and whether it arrived before kickoff.
+The [fixed game list](cloud/week7_frozen.csv) contains 13 DraftKings opening-line large underdogs. Three were selected by the saved SP+ comparison. The original underdog spreads and displayed American prices were captured October 11, 2026. The October 18 [hosted result](cloud/runs/sunday-results.json) grades all 13 games at those quotes. Raw web responses are retained as workflow artifacts. Each observation records its retrieval time, source, and whether it arrived before kickoff.
 
-Run a manual check with **Actions > SP+ Week 7 capture > Run workflow**. The scheduled entries are limited in code to October 15, 17, and 18, 2026. GitHub scheduled jobs may start late, so a quote's recorded retrieval time determines whether it was pregame.
+The seven scheduled 2026 runs completed. The expired cron entries have been removed from the workflow; manual dispatch remains available for an audit check. GitHub started the quote runs after their intended pregame windows, so a quote's recorded retrieval time determines whether it was pregame.
 
 Scheduled checks, Central time:
 
@@ -18,7 +18,9 @@ Scheduled checks, Central time:
 | Sat Oct 17 | 8:31 p.m. | Sacramento State, Colorado, Hawai'i |
 | Sun Oct 18 | 12:02 p.m. | Final-score check and grading |
 
-The Sunday comparison uses the frozen 13-game baseline and the three SP+ selected games. A later quote counts as near kickoff only when retrieved within two hours before the scheduled start.
+The Sunday comparison uses the frozen 13-game baseline and the three SP+ selected games. SP+ went **2-1** at the October 11 spreads and displayed prices for an indicative **+$78.58** on three $100 stakes. All 13 large underdogs went **8-5** for **+$218.91** on 13 $100 stakes. The remaining ten went 6-4. The local project reconciled every ESPN final score and grade with CFBD by game ID.
+
+A later quote counts as near kickoff only when retrieved within two hours before the scheduled start. None of the scheduled quote checks retrieved a price before kickoff. Five saved post-kickoff observations; the Saturday late run started after the local date changed and skipped capture. The near-kickoff group has zero games. The Week 7 result uses only the fixed October 11 quotes.
 
 The quote source is the public DraftKings Network betting-splits page, with SportsLine's embedded DraftKings records for games absent there. Sunday scores use ESPN's public event summary with the same game IDs. These are source observations, not verified executable wagers. The cloud workflow does not use or store `CFBD_API_KEY`.
 
